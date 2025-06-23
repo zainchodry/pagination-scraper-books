@@ -1,0 +1,52 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment variable files
+.env
+.env.*
+
+# Cache
+*.cache
+.cache/
+
+# Compiled files
+*.so
+*.pyd
+*.dll
+
+# Pip packages
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Scraper results or output (optional - if you write to files)
+output.csv
+output.json
+scraped_data/
